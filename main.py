@@ -166,8 +166,10 @@ def getBeijinTime():
     else:
         user_mi = sys.argv[1]
         passwd_mi = sys.argv[2]
-        print(user_mi)
-        print(passwd_mi)
+         user_list = user_mi.split('#')
+        passwd_list = passwd_mi.split('#')
+        print(user_list)
+        print(passwd_list)
         print("当前不是主人设定的提交步数时间或者主人设置了0步数呢，本次不提交")
         return
 
