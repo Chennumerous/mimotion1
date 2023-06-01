@@ -164,6 +164,10 @@ def getBeijinTime():
             else:
                print("此次修改结果不推送")
     else:
+        user_mi = sys.argv[1]
+        passwd_mi = sys.argv[2]
+        print(user_mi)
+        print(passwd_mi)
         print("当前不是主人设定的提交步数时间或者主人设置了0步数呢，本次不提交")
         return
 
