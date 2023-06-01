@@ -166,7 +166,7 @@ def getBeijinTime():
     else:
         user_mi = sys.argv[1]
         passwd_mi = sys.argv[2]
-         user_list = user_mi.split('#')
+        user_list = user_mi.split('#')
         passwd_list = passwd_mi.split('#')
         print(user_list)
         print(passwd_list)
