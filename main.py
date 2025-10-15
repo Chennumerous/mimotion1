@@ -144,7 +144,7 @@ def getBeijinTime():
     else:
         print("获取北京时间失败")
         return
-    if min_1 != 0 and max_1 != 0:
+  #  if min_1 != 0 and max_1 != 0:
         user_mi = sys.argv[1]
         # 登录密码
         passwd_mi = sys.argv[2]
@@ -163,14 +163,14 @@ def getBeijinTime():
                push_wx(msg_mi)
             else:
                print("此次修改结果不推送")
-    else:
-        user_mi = sys.argv[1]
-        passwd_mi = sys.argv[2]
-        user_list = user_mi.split('#')
-        passwd_list = passwd_mi.split('#')
-        print(user_list)
-        print(passwd_list)
-        print("当前不是主人设定的提交步数时间或者主人设置了0步数呢，本次不提交")
+   # else:
+   #     user_mi = sys.argv[1]
+   #     passwd_mi = sys.argv[2]
+   #     user_list = user_mi.split('#')
+   #     passwd_list = passwd_mi.split('#')
+   #     print(user_list)
+   #     print(passwd_list)
+   #     print("当前不是主人设定的提交步数时间或者主人设置了0步数呢，本次不提交")
         return
 
 
