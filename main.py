@@ -146,8 +146,6 @@ def getBeijinTime():
         return
     print(min_1)
     print(max_1)
-    min_1 = 1
-    max_1 = 1
     if min_1 != 0 and max_1 != 0:
         user_mi = sys.argv[1]
         # 登录密码
